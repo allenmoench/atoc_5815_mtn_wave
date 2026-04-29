@@ -27,7 +27,7 @@ def identify_red_flag_days(df, start_date, end_date):
 if __name__ == "__main__":
     url = "https://sundowner.colorado.edu/weather/atoc1/wxobs20211230.txt" #currently your data downloader only accepts 'text' files, so can not go through entire daily data since it is a 'grf' file
     df = data_download(url)
-    rf_days = identify_red_flag_days(df, "2021-12-01", "2024-12-31")
+    rf_days = identify_red_flag_days(df, "2021-12-01", "2021-12-31")
     print(rf_days)
   
 

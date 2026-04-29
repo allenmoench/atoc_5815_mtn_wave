@@ -112,3 +112,12 @@ def mean_plot(url, start_date, end_date, column_name, timestep):
     plt.grid(True, alpha=0.3)
     plt.xticks(rotation=45)
     plt.show
+
+if __name__ == '__main__':
+    print("Running tests...")
+    column_name = "Hi_Speed"
+    url = "https://sundowner.colorado.edu/weather/atoc1/wxobs20211230.txt"
+    start_date = datetime.date(2021,12,1)
+    end_date = datetime.date(2021,12,31)
+    timeseries = simple_timeseries(column_name, url, start_date, end_date)
+    print(f"Windspeed plot: {timeseries}")

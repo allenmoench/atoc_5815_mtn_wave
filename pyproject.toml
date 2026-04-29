@@ -21,4 +21,6 @@ dependencies = [
 dev = ["build", "twine"]
 
 [project.scripts]
-data_analysis_package = "data_analysis_package.run_analysis:main"
+thresh = "data_analysis_package.threshold_search:main"
+timeseries = "data_analysis_package.statistical_analysis:main"
+anomaly = "data_analysis_package.anomaly:main"
