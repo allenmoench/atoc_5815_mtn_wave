@@ -21,6 +21,6 @@ dependencies = [
 dev = ["build", "twine"]
 
 [project.scripts]
-thresh = "data_analysis_package.threshold_search:main"
-timeseries = "data_analysis_package.statistical_analysis:main"
-anomaly = "data_analysis_package.anomaly:main"
+thresh = "msfire_mtn_wave.threshold_search:main"
+timeseries = "msfire_mtn_wave.statistical_analysis:main"
+anomaly = "msfire_mtn_wave.anomaly:main"
