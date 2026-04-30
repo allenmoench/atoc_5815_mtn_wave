@@ -1,4 +1,0 @@
-[console_scripts]
-anomaly = data_analysis_package.anomaly:main
-thresh = data_analysis_package.threshold_search:main
-timeseries = data_analysis_package.statistical_analysis:main

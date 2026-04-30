@@ -20,4 +20,4 @@ venv/
 .ipynb_checkpoints/
 
 # Other
-*.egg-info
+*.egg-info.pypirc
